@@ -1,2 +1,6 @@
 /dialogue/dailydialog_utils/bert-base-cased/
 /dialogue/dailydialog_utils/glove/
+/dialogue/ckpt-amr-2.0/
+*__pycache__*
+*.DS_Store
+*.pyc

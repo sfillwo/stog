@@ -25,4 +25,3 @@ tar -xzvf amr_2.0_utils.tar.gz
 tar -xzvf amr_1.0_utils.tar.gz
 rm amr_2.0_utils.tar.gz amr_1.0_utils.tar.gz
 popd
-

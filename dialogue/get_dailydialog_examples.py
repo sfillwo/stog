@@ -1,4 +1,4 @@
-import os
+import os, string
 
 if __name__ == '__main__':
 
@@ -15,7 +15,10 @@ if __name__ == '__main__':
                 line = line.strip()
                 if '###' not in line and line != '':
                     w.write('# ::id %d\n'%id)
+                    line = line.translate(str.maketrans({key: " {0} ".format(key) for key in string.punctuation if key not in "-'"}))
+                    line = line.replace(" ' ", "'")
                     w.write('# ::snt %s\n'%line)
+                    w.write('(d / dummy)\n')
                     w.write('\n')
                     count += 1
                 if count == k:

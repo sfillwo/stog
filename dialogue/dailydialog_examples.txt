@@ -1,0 +1,400 @@
+# ::id 0
+# ::snt Say  ,  Jim  ,  how about going for a few beers after dinner  ? 
+(d / dummy)
+
+# ::id 1
+# ::snt You know that is tempting but is really not good for our fitness  . 
+(d / dummy)
+
+# ::id 2
+# ::snt What do you mean  ?  It will help us to relax  . 
+(d / dummy)
+
+# ::id 3
+# ::snt Do you really think so  ?  I don't  .  It will just make us fat and act silly  .  Remember last time  ? 
+(d / dummy)
+
+# ::id 4
+# ::snt I guess you are right . But what shall we do  ?  I don't feel like sitting at home  . 
+(d / dummy)
+
+# ::id 5
+# ::snt I suggest a walk over to the gym where we can play singsong and meet some of our friends  . 
+(d / dummy)
+
+# ::id 6
+# ::snt That's a good idea  .  I hear Mary and Sally often go there to play pingpong . Perhaps we can make a foursome with them  . 
+(d / dummy)
+
+# ::id 7
+# ::snt Sounds great to me  !  If they are willing  ,  we could ask them to go dancing with us . That is excellent exercise and fun  ,  too  . 
+(d / dummy)
+
+# ::id 8
+# ::snt Good . Let's go now  . 
+(d / dummy)
+
+# ::id 9
+# ::snt All right  . 
+(d / dummy)
+
+# ::id 13
+# ::snt Can you do push-ups  ? 
+(d / dummy)
+
+# ::id 14
+# ::snt Of course I can  .  It's a piece of cake  !  Believe it or not  ,  I can do 30 push-ups a minute  . 
+(d / dummy)
+
+# ::id 15
+# ::snt Really  ?  I think that's impossible  ! 
+(d / dummy)
+
+# ::id 16
+# ::snt You mean 30 push-ups  ? 
+(d / dummy)
+
+# ::id 17
+# ::snt Yeah  ! 
+(d / dummy)
+
+# ::id 18
+# ::snt It's easy  .  If you do exercise everyday  ,  you can make it  ,  too  . 
+(d / dummy)
+
+# ::id 22
+# ::snt Can you study with the radio on  ? 
+(d / dummy)
+
+# ::id 23
+# ::snt No  ,  I listen to background music  . 
+(d / dummy)
+
+# ::id 24
+# ::snt What is the difference  ? 
+(d / dummy)
+
+# ::id 25
+# ::snt The radio has too many comerials  . 
+(d / dummy)
+
+# ::id 26
+# ::snt That's true  ,  but then you have to buy a record player  . 
+(d / dummy)
+
+# ::id 30
+# ::snt Are you all right  ? 
+(d / dummy)
+
+# ::id 31
+# ::snt I will be all right soon  .  I was terrified when I watched them fall from the wire  . 
+(d / dummy)
+
+# ::id 32
+# ::snt Don't worry . He is an acrobat 。
+(d / dummy)
+
+# ::id 33
+# ::snt I see  . 
+(d / dummy)
+
+# ::id 37
+# ::snt Hey John  ,  nice skates  .  Are they new  ? 
+(d / dummy)
+
+# ::id 38
+# ::snt Yeah  ,  I just got them  .  I started playing ice hockey in a community league  .  So  ,  I finally got myself new skates  . 
+(d / dummy)
+
+# ::id 39
+# ::snt What position do you play  ? 
+(d / dummy)
+
+# ::id 40
+# ::snt I'm a defender  .  It's a lot of fun  .  You don't have to be able to skate as fast on defense  . 
+(d / dummy)
+
+# ::id 41
+# ::snt Yeah  ,  you're a pretty big guy  .  I play goalie  ,  myself  . 
+(d / dummy)
+
+# ::id 42
+# ::snt Oh  ,  yeah  ?  Which team  ? 
+(d / dummy)
+
+# ::id 43
+# ::snt The Rockets  . 
+(d / dummy)
+
+# ::id 44
+# ::snt Really  ?  I think we play you guys next week  .  Well  ,  I have to go to practice  .  See you later  . 
+(d / dummy)
+
+# ::id 45
+# ::snt All right  ,  see you later  . 
+(d / dummy)
+
+# ::id 49
+# ::snt Hey Lydia  ,  what are you reading  ? 
+(d / dummy)
+
+# ::id 50
+# ::snt I'm looking at my horoscope for this month  !  My outlook is very positive  .  It says that I should take a vacation to someplace exotic  ,  and that I will have a passionate summer fling  ! 
+(d / dummy)
+
+# ::id 51
+# ::snt What are you talking about  ?  Let me see that  .  .  .  What are horoscopes  ? 
+(d / dummy)
+
+# ::id 52
+# ::snt It's a prediction of your month  ,  based on your zodiac sign  .  You have a different sign for the month and date you were born in  .  I was born on April 15th  ,  so I'm an Aries  .  When were you born  ? 
+(d / dummy)
+
+# ::id 53
+# ::snt January 5th  . 
+(d / dummy)
+
+# ::id 54
+# ::snt Let's see  .   .   .  you're a Capricorn  .  It says that you will be feeling stress at work  ,  but you could see new  ,  exciting developments in your love life  .  Looks like we'll both have interesting summers  ! 
+(d / dummy)
+
+# ::id 55
+# ::snt That's bogus  .  I don't feel any stress at work  ,  and my love life is practically nonexistent  .  This zodiac stuff is all a bunch of nonsense  . 
+(d / dummy)
+
+# ::id 56
+# ::snt No  ,  it's not  ,  your astrology sign can tell you a lot about your personality  .  See  ?  It says that an Aries is energetic and loves to socialize  . 
+(d / dummy)
+
+# ::id 57
+# ::snt Well  ,  you certainly match those criteria  ,  but they're so broad they could apply to anyone  .  What does it say about me  ? 
+(d / dummy)
+
+# ::id 58
+# ::snt A Capricorn is serious-minded and practical  .  She likes to do things in conventional ways  .  That sounds just like you  ! 
+(d / dummy)
+
+# ::id 62
+# ::snt Frank's getting married  ,  do you believe this  ? 
+(d / dummy)
+
+# ::id 63
+# ::snt Is he really  ? 
+(d / dummy)
+
+# ::id 64
+# ::snt Yes  ,  he is  .  He loves the girl very much  . 
+(d / dummy)
+
+# ::id 65
+# ::snt Who is he marring  ? 
+(d / dummy)
+
+# ::id 66
+# ::snt A girl he met on holiday in Spain  ,  I think  . 
+(d / dummy)
+
+# ::id 67
+# ::snt Have they set a date for the wedding  ? 
+(d / dummy)
+
+# ::id 68
+# ::snt Not yet  . 
+(d / dummy)
+
+# ::id 72
+# ::snt I hear you bought a new house in the northern suburbs  . 
+(d / dummy)
+
+# ::id 73
+# ::snt That's right  ,  we bought it the same day we came on the market  . 
+(d / dummy)
+
+# ::id 74
+# ::snt What kind of house is it  ? 
+(d / dummy)
+
+# ::id 75
+# ::snt It's a wonderful Spanish style  . 
+(d / dummy)
+
+# ::id 76
+# ::snt Oh  ,  I love the roof tiles on Spanish style houses  . 
+(d / dummy)
+
+# ::id 77
+# ::snt And it's a bargaining  .  A house like this in river side costs double the price  . 
+(d / dummy)
+
+# ::id 78
+# ::snt Great  ,  is it a two bedroom house  ? 
+(d / dummy)
+
+# ::id 79
+# ::snt No  ,  it has three bedrooms and three beds  ,  and has a living room with a twelve-foot ceiling  .  There's a two-car garage  . 
+(d / dummy)
+
+# ::id 80
+# ::snt That's a nice area too  .  It'll be a good investment for you  . 
+(d / dummy)
+
+# ::id 81
+# ::snt Yeas  ,  when will you buy a house  ? 
+(d / dummy)
+
+# ::id 82
+# ::snt Not untill the end of this year  ,  you know  ,  just before my wedding  . 
+(d / dummy)
+
+# ::id 83
+# ::snt Right  ,  congratulations  . 
+(d / dummy)
+
+# ::id 84
+# ::snt Thank you  . 
+(d / dummy)
+
+# ::id 88
+# ::snt Hi  ,  Becky  ,  what's up  ? 
+(d / dummy)
+
+# ::id 89
+# ::snt Not much  ,  except that my mother-in-law is driving me up the wall  . 
+(d / dummy)
+
+# ::id 90
+# ::snt What's the problem  ? 
+(d / dummy)
+
+# ::id 91
+# ::snt She loves to nit-pick and criticizes everything that I do  .  I can never do anything right when she's around  . 
+(d / dummy)
+
+# ::id 92
+# ::snt For example  ? 
+(d / dummy)
+
+# ::id 93
+# ::snt Well  ,  last week I invited her over to dinner  .  My husband and I had no problem with the food  ,  but if you listened to her  ,  then it would seem like I fed her old meat and rotten vegetables  .  There's just nothing can please her  . 
+(d / dummy)
+
+# ::id 94
+# ::snt No  ,  I can't see that happening  .  I know you're a good cook and nothing like that would ever happen  . 
+(d / dummy)
+
+# ::id 95
+# ::snt It's not just that  .  She also criticizes how we raise the kids  . 
+(d / dummy)
+
+# ::id 96
+# ::snt My mother-in-law used to do the same thing to us  .  If it wasn't disciplining them enough  ,  then we were disciplining them too much  .  She also complained about the food we fed them  ,  the schools we sent them too  ,  and everything else under the sun  . 
+(d / dummy)
+
+# ::id 97
+# ::snt You said she used to  ?  How did you stop her  ? 
+(d / dummy)
+
+# ::id 98
+# ::snt We basically sat her down and told her how we felt about her constant criticizing  ,  and how we welcomed her advice but hoped she'd let us do our things  .  She understood  ,  and now everything is a lot more peaceful  . 
+(d / dummy)
+
+# ::id 99
+# ::snt That sounds like a good idea  .  I'll have to try that  . 
+(d / dummy)
+
+# ::id 103
+# ::snt How are Zina's new programmers working out  ? 
+(d / dummy)
+
+# ::id 104
+# ::snt I hate to admit it  ,  but they're good  .  And fast  .  The Filipino kid is a genius  . 
+(d / dummy)
+
+# ::id 105
+# ::snt So you'll make the Stars . com deadline  ,  and have us up and running next week  ? 
+(d / dummy)
+
+# ::id 106
+# ::snt It'll be close  ,  but we'll make it  . 
+(d / dummy)
+
+# ::id 107
+# ::snt Good  .  After Stars . com starts paying us  ,  we won't need Vikam's cash anymore  . 
+(d / dummy)
+
+# ::id 108
+# ::snt And if we don't need them  ,  we won't need Zina  ,  either  . 
+(d / dummy)
+
+# ::id 112
+# ::snt Do you like cooking  ? 
+(d / dummy)
+
+# ::id 113
+# ::snt Yes  .  I like cooking very much  .  I got this hobby when I was 12 years sold  . 
+(d / dummy)
+
+# ::id 114
+# ::snt Why do you like it  ? 
+(d / dummy)
+
+# ::id 115
+# ::snt I have no idea  .  I like cooking by myself  .  I like to taste delicious food  . 
+(d / dummy)
+
+# ::id 116
+# ::snt That's wonderful  ! 
+(d / dummy)
+
+# ::id 117
+# ::snt And I love trying new recipes  ,  which I usually test with my friends  .  You can come  ,  too  . 
+(d / dummy)
+
+# ::id 118
+# ::snt Really  ?  I hope I can have a chance to taste it  .  Don't forget to tell me  . 
+(d / dummy)
+
+# ::id 119
+# ::snt Certainly  . 
+(d / dummy)
+
+# ::id 123
+# ::snt Anyone home  ?  Jen  ! 
+(d / dummy)
+
+# ::id 124
+# ::snt I'm in the kitchen  .  .  .  let yourself in  ! 
+(d / dummy)
+
+# ::id 125
+# ::snt Wow  !  You're really working up a storm  ! 
+(d / dummy)
+
+# ::id 126
+# ::snt I know  .  I've even worked up a sweat  . 
+(d / dummy)
+
+# ::id 127
+# ::snt You look like a cooking show host--only messier  . 
+(d / dummy)
+
+# ::id 131
+# ::snt You look so tan and healthy  ! 
+(d / dummy)
+
+# ::id 132
+# ::snt Thanks  .  I just got back from summer camp  . 
+(d / dummy)
+
+# ::id 133
+# ::snt How was it  ? 
+(d / dummy)
+
+# ::id 134
+# ::snt Great  .  I got to try so many things for the first time  . 
+(d / dummy)
+
+# ::id 135
+# ::snt Like what  ? 
+(d / dummy)
+
