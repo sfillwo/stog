@@ -800,7 +800,8 @@ class STOG(Model):
 
             eos_token_mask = new_token_indices.eq(eos_token)
 
-            eos_beam_indices_offset = torch.div(
+            # SF modified
+            eos_beam_indices_offset = torch.floor_divide(
                 new_hypo_indices,
                 word_lprobs.size(-1)
             )[:, :beam_size] + new_order.view(batch_size, beam_size) * beam_size
@@ -847,7 +848,8 @@ class STOG(Model):
             new_token_indices = new_token_indices[:, :beam_size]
 
             # find out which beam the new hypo came from and what is the new token
-            beam_indices = torch.div(new_hypo_indices, word_lprobs.size(-1))
+            # SF modified
+            beam_indices = torch.floor_divide(new_hypo_indices, word_lprobs.size(-1))
             if step == 0:
                 decoder_mask_input = []
             else:
@@ -933,7 +935,8 @@ class STOG(Model):
         return_dict["predictions"][return_dict["predictions"] == pad_token] = eos_token
         return_dict["coref_indexes"] = return_dict["coref_indexes"][:, :-1]
         return_dict["decoder_mask"] = return_dict["predictions"] != eos_token#return_dict["decoder_mask"][:, :-1]
-        return_dict["scores"] = torch.div(return_dict["scores"], return_dict["decoder_mask"].sum(1, keepdim=True).type_as(return_dict["scores"]))
+        # SF modified
+        return_dict["scores"] = torch.floor_divide(return_dict["scores"], return_dict["decoder_mask"].sum(1, keepdim=True).type_as(return_dict["scores"]))
 
         return return_dict
 
@@ -1107,7 +1110,8 @@ class STOG(Model):
         coref_index = (predictions - vocab_size - copy_vocab_size)
         # Fill the place where copy didn't happen with the current step,
         # which means that the node doesn't refer to any precedent, it refers to itself.
-        coref_index.masked_fill_(1 - coref_mask, step + 1)
+        coref_index.masked_fill_(~coref_mask, step + 1) #SF modified
+
 
         coref_attention_maps[batch_index, step_index, coref_index] = 1
 
@@ -1149,7 +1153,7 @@ class STOG(Model):
         coref_vocab_maps[batch_index, step_index + 1] = next_input
 
         # 4. Get the coref-resolved predictions.
-        coref_resolved_preds = coref_predictions * coref_mask.long() + predictions * (1 - coref_mask).long()
+        coref_resolved_preds = coref_predictions * coref_mask.long() + predictions * (~coref_mask).long() #SF modified
 
         # 5. Get the mask for the current generation.
         has_eos = torch.zeros_like(gen_mask)

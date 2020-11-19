@@ -164,7 +164,13 @@ class Expander:
     def expand_ordinal_node(self, node, saved_dict, amr):
         graph = amr.graph
         graph.replace_node_attribute(node, 'instance', node.instance, 'ordinal-entity')
-        graph.add_node_attribute(node, 'value', int(saved_dict['ops'][0]))
+        try:
+            graph.add_node_attribute(node, 'value', int(saved_dict['ops'][0].replace('"',''))) #MODSF replace()
+        except:
+            print('node', node)
+            print('instance', node.instance)
+            print('saved dict', saved_dict)
+            exit()
 
     def _load_utils(self):
         with open(os.path.join(self.util_dir, 'name_op_cooccur_counter.json'), encoding='utf-8') as f:

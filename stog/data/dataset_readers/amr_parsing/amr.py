@@ -193,7 +193,10 @@ class AMRNode:
         return copy
 
     def remove_attribute(self, attr, value):
-        self.attributes.remove((attr, value))
+        if (attr, value) in self.attributes: #ADDED BY SF
+            self.attributes.remove((attr, value))
+        else:
+            print('attr: %s, val: %s not in node attributes'%(attr,value))
 
     def add_attribute(self, attr, value):
         self.attributes.append((attr, value))
@@ -633,8 +636,13 @@ class AMRGraph(penman.Graph):
 
     @classmethod
     def decode(cls, raw_graph_string):
-        _graph = amr_codec.decode(raw_graph_string)
-        return cls(_graph)
+        try:
+            _graph = amr_codec.decode(raw_graph_string)
+            return cls(_graph)
+        except Exception as e: #MODSF
+            print(e)
+            print(raw_graph_string)
+            exit()
 
     @classmethod
     def from_lists(cls, all_list):

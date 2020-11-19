@@ -52,9 +52,12 @@ class Polite:
             self.amr.graph.add_node_attribute(node, 'polite', '+')
 
     def is_match(self, index, node):
-        instance_lemma = re.sub(r'-\d\d$', '', node.instance)
-        lemma = self.amr.lemmas[index]
-        lemma = self.lemma_map.get(lemma, lemma)
-        if instance_lemma == lemma:
-            return True
-        return False
+        try:
+            instance_lemma = re.sub(r'-\d\d$', '', node.instance)
+            lemma = self.amr.lemmas[index]
+            lemma = self.lemma_map.get(lemma, lemma)
+            if instance_lemma == lemma:
+                return True
+            return False
+        except Exception as e: # MODSF
+            return False

@@ -13,5 +13,5 @@ compound_file=dialogue/joints.txt
 examples=$1
 
 python -u -m stog.data.dataset_readers.amr_parsing.preprocess.feature_annotator \
-    dialogue/$examples \
+    dialogue/$examples.txt \
     --compound_file ${compound_file}

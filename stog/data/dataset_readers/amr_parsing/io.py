@@ -17,6 +17,8 @@ class AMRIO:
                 line = line.rstrip()
                 if line == '':
                     if len(graph_lines) != 0:
+                        # print(graph_lines)
+                        # print()
                         amr.graph = AMRGraph.decode(' '.join(graph_lines))
                         amr.graph.set_src_tokens(amr.get_src_tokens())
                         amr.misc = misc_lines

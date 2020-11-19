@@ -20,7 +20,18 @@ def next_token_is(index: int, k: int, amr: AMR, pattern: str):
 
 def is_anonym_type(index: int, amr: AMR, text_map: Dict, types: List) -> bool:
     lemma = amr.lemmas[index]
-    return lemma in text_map and text_map[lemma]['ner'] in types
+    try:
+        return lemma in text_map and text_map[lemma]['ner'] in types
+    except:
+        print()
+        print(text_map)
+        print()
+        print('amr lemmas: ', amr.lemmas)
+        print('index: ', index)
+        print('lemma: ', lemma)
+        print('text map for lemma: ', text_map[lemma])
+        print()
+        exit()
 
 
 class TextAnonymizor:

@@ -7,7 +7,7 @@ util_dir=dialogue/dailydialog_utils
 
 # AMR data with **features**
 data_dir=dialogue
-test_data=${data_dir}/dailydialog_examples.pred.txt
+test_data=${data_dir}/$1.pred.txt
 
 # ========== Set the above variables correctly ==========
 

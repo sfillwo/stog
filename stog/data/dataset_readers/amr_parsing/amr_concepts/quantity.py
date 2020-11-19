@@ -157,15 +157,15 @@ class Quantity:
             self.quant_count += 1
             alignment, backup = self.get_alignment([q], node_position, node, attr, value)
             quant_tokens = self.normalize_quant(q)
-            if quant_tokens is not None:
-                alignment2, backup2 = self.get_alignment(
-                    quant_tokens, node_position, node, attr, value)
-                if (alignment2.score, alignment2.near) > (alignment.score, alignment.near):
-                    backup = [alignment] + backup + backup2
-                    alignment = alignment2
-                else:
-                    backup = [alignment2] + backup + backup2
-                backup.sort(key=lambda x: (-x.score, -x.near))
+            if quant_tokens is not None: #ADDED BY SF
+                alignment2, backup2 = self.get_alignment(quant_tokens, node_position, node, attr, value)
+                if alignment2 is not None:
+                    if (alignment2.score, alignment2.near) > (alignment.score, alignment.near):
+                        backup = [alignment] + backup + backup2
+                        alignment = alignment2
+                    else:
+                        backup = [alignment2] + backup + backup2
+                    backup.sort(key=lambda x: (-x.score, -x.near))
             alignment.backup = backup
             if alignment.score > 0:
                 self.alignments.append(alignment)
@@ -230,7 +230,11 @@ class Quantity:
                         AlignedPairs(tokens, i, index, self.amr, score, near))
             candidate_alignments.append(alignment)
         candidate_alignments.sort(key=lambda x: (-x.score, -x.near))
-        return candidate_alignments[0], candidate_alignments[1:]
+        if len(candidate_alignments) > 0: #ADDED BY SF
+            return candidate_alignments[0], candidate_alignments[1:]
+        else:
+            print('No candidate alignments found')
+            return None, []
 
     def get_node_position(self, node):
         lemmas = self.amr.lemmas
